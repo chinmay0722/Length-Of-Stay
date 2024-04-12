@@ -119,7 +119,7 @@ background-position: 0 0,29px 29px;
                 unsafe_allow_html=True
             )
             st.markdown(
-    f'<span style="color:black; font-size: 20px ;font-weight: bold;">{str(round(prediction[0], 1))+'  Days'}</span>',
+    f'<span style="color:black; font-size: 20px; font-weight: bold;">{str(round(prediction[0], 1))} Days</span>',
     unsafe_allow_html=True
 )
 
